@@ -7,6 +7,8 @@ CS 3240 - Smith
 __author__ = 'Kean Finucane'
 
 from helper import greeting
+from helper2 import excited_greeting
 
 if __name__ == '__main__':
     greeting('hello')
+    excited_greeting('hello')
