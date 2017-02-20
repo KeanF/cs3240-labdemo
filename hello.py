@@ -8,5 +8,9 @@ __author__ = 'Kean Finucane'
 
 from helper import greeting
 
+def example():
+    print('This is an example')
+
 if __name__ == '__main__':
     greeting('hello')
+    example()
